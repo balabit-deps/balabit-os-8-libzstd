@@ -1,3 +1,14 @@
+libzstd (1.4.4+dfsg-3ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: race condition allows attacker to access
+    world-readable destination file
+    - debian/patches/0018-fix-file-permissions-on-compression.patch: set
+      umask in programs/fileio.c, programs/util.c, programs/util.h.
+    - CVE-2021-24031
+    - CVE-2021-24032
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 03 Mar 2021 10:47:34 -0500
+
 libzstd (1.4.4+dfsg-3) unstable; urgency=medium
 
   * Team upload.

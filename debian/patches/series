@@ -5,3 +5,4 @@
 0015-Skip-dev-random-tests-on-hurd.patch
 0018-Alias-renamed-API-symbols.patch
 0019-blhc-workarounds.patch
+0018-fix-file-permissions-on-compression.patch

@@ -1,5 +1,6 @@
 Source: libzstd
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
 Uploaders: Kevin Murray <kdmfoss@gmail.com>,
            Olivier Sallou <osallou@debian.org>,
            Alexandre Mestiashvili <mestia@debian.org>
